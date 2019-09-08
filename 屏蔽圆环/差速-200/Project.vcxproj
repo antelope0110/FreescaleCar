@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2F91FE68-F5D2-4C86-9323-882D64B61895}</ProjectGuid>
+    <RootNamespace>Project2</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>Board_Test</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>USE_STDPERIPH_DRIVER;STM32F10X_HD;__CC_ARM</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      <IncludePath>.\Libraries\drives\inc;.\Libraries\FatFs;.\Libraries\seekfree;.\Libraries\startup\CoreSupport;.\Libraries\startup\DeviceSupport;.\Projecct\JLINK;.\Projecct\USER\inc;D:\Program Files\Keil_v5\ARM\ARMCC\include</IncludePath>
+      <ReferencePath />
+      <LibraryPath />
+      <LibraryWPath />
+      <ExcludePath />
+      <SourcePath />
+    </PropertyGroup>
+  <ItemGroup>
+    <ClInclude Include="Libraries\drives\inc\common.h" />
+    <ClInclude Include="Libraries\drives\inc\headfile.h" />
+    <ClInclude Include="Libraries\drives\inc\misc.h" />
+    <ClInclude Include="Libraries\drives\inc\MK60_adc.h" />
+    <ClInclude Include="Libraries\drives\inc\MK60_cmt.h" />
+    <ClInclude Include="Libraries\drives\inc\MK60_dac.h" />
+    <ClInclude Include="Libraries\drives\inc\MK60_dma.h" />
+    <ClInclude Include="Libraries\drives\inc\MK60_flash.h" />
+    <ClInclude Include="Libraries\drives\inc\MK60_ftm.h" />
+    <ClInclude Include="Libraries\drives\inc\MK60_gpio.h" />
+    <ClInclude Include="Libraries\drives\inc\MK60_i2c.h" />
+    <ClInclude Include="Libraries\drives\inc\MK60_lptmr.h" />
+    <ClInclude Include="Libraries\drives\inc\MK60_pit.h" />
+    <ClInclude Include="Libraries\drives\inc\MK60_port.h" />
+    <ClInclude Include="Libraries\drives\inc\MK60_port_cfg.h" />
+    <ClInclude Include="Libraries\drives\inc\MK60_rtc.h" />
+    <ClInclude Include="Libraries\drives\inc\MK60_sdhc.h" />
+    <ClInclude Include="Libraries\drives\inc\MK60_spi.h" />
+    <ClInclude Include="Libraries\drives\inc\MK60_systick.h" />
+    <ClInclude Include="Libraries\drives\inc\MK60_uart.h" />
+    <ClInclude Include="Libraries\drives\inc\MK60_wdog.h" />
+    <ClCompile Include="Libraries\drives\src\common.c" />
+    <ClCompile Include="Libraries\drives\src\misc.c" />
+    <ClCompile Include="Libraries\drives\src\MK60_adc.c" />
+    <ClCompile Include="Libraries\drives\src\MK60_cmt.c" />
+    <ClCompile Include="Libraries\drives\src\MK60_dac.c" />
+    <ClCompile Include="Libraries\drives\src\MK60_dma.c" />
+    <ClCompile Include="Libraries\drives\src\MK60_flash.c" />
+    <ClCompile Include="Libraries\drives\src\MK60_ftm.c" />
+    <ClCompile Include="Libraries\drives\src\MK60_gpio.c" />
+    <ClCompile Include="Libraries\drives\src\MK60_i2c.c" />
+    <ClCompile Include="Libraries\drives\src\MK60_lptmr.c" />
+    <ClCompile Include="Libraries\drives\src\MK60_pit.c" />
+    <ClCompile Include="Libraries\drives\src\MK60_port.c" />
+    <ClCompile Include="Libraries\drives\src\MK60_rtc.c" />
+    <ClCompile Include="Libraries\drives\src\MK60_sdhc.c" />
+    <ClCompile Include="Libraries\drives\src\MK60_spi.c" />
+    <ClCompile Include="Libraries\drives\src\MK60_systick.c" />
+    <ClCompile Include="Libraries\drives\src\MK60_uart.c" />
+    <ClCompile Include="Libraries\drives\src\MK60_wdog.c" />
+    <ClCompile Include="Libraries\FatFs\diskio.c" />
+    <ClCompile Include="Libraries\FatFs\ff.c" />
+    <ClInclude Include="Libraries\FatFs\diskio.h" />
+    <ClInclude Include="Libraries\FatFs\ff.h" />
+    <ClInclude Include="Libraries\FatFs\ffconf.h" />
+    <ClInclude Include="Libraries\FatFs\integer.h" />
+    <ClCompile Include="Libraries\FatFs\option\cc932.c" />
+    <ClCompile Include="Libraries\FatFs\option\cc936.c" />
+    <ClCompile Include="Libraries\FatFs\option\cc949.c" />
+    <ClCompile Include="Libraries\FatFs\option\cc950.c" />
+    <ClCompile Include="Libraries\FatFs\option\ccsbcs.c" />
+    <ClCompile Include="Libraries\FatFs\option\syscall.c" />
+    <ClCompile Include="Libraries\FatFs\option\unicode.c" />
+    <ClCompile Include="Libraries\seekfree\SEEKFREE_7725.c" />
+    <ClCompile Include="Libraries\seekfree\SEEKFREE_FUN.c" />
+    <ClCompile Include="Libraries\seekfree\SEEKFREE_IIC.c" />
+    <ClCompile Include="Libraries\seekfree\SEEKFREE_MT9V032.c" />
+    <ClCompile Include="Libraries\seekfree\SEEKFREE_NRF24L01.c" />
+    <ClCompile Include="Libraries\seekfree\SEEKFREE_OLED.c" />
+    <ClCompile Include="Libraries\seekfree\SEEKFREE_TSL1401.c" />
+    <ClInclude Include="Libraries\seekfree\SEEKFREE_7725.h" />
+    <ClInclude Include="Libraries\seekfree\SEEKFREE_FUN.h" />
+    <ClInclude Include="Libraries\seekfree\SEEKFREE_IIC.h" />
+    <ClInclude Include="Libraries\seekfree\SEEKFREE_MT9V032.h" />
+    <ClInclude Include="Libraries\seekfree\SEEKFREE_NRF24L01.h" />
+    <ClInclude Include="Libraries\seekfree\SEEKFREE_OLED.h" />
+    <ClInclude Include="Libraries\seekfree\SEEKFREE_TSL1401.h" />
+    <ClInclude Include="Libraries\startup\CoreSupport\core_cm0plus.h" />
+    <ClInclude Include="Libraries\startup\CoreSupport\core_cm4.h" />
+    <ClInclude Include="Libraries\startup\CoreSupport\core_cm4_simd.h" />
+    <ClInclude Include="Libraries\startup\CoreSupport\core_cmFunc.h" />
+    <ClInclude Include="Libraries\startup\CoreSupport\core_cmInstr.h" />
+    <ClCompile Include="Libraries\startup\DeviceSupport\system_MK66.c" />
+    <ClInclude Include="Libraries\startup\DeviceSupport\MK66F18.h" />
+    <ClInclude Include="Libraries\startup\DeviceSupport\system_MK66.h" />
+    <ClCompile Include="Libraries\startup\DeviceSupport\IAR-ARM\startup_MK66F18.s" />
+    <ClCompile Include="Libraries\startup\DeviceSupport\MDK-ARM\startup_MK66F18.s" />
+    <ClCompile Include="Projecct\JLINK\SEGGER_RTT.c" />
+    <ClCompile Include="Projecct\JLINK\SEGGER_RTT_printf.c" />
+    <ClInclude Include="Projecct\JLINK\SEGGER_RTT.h" />
+    <ClInclude Include="Projecct\JLINK\SEGGER_RTT_Conf.h" />
+    <ClInclude Include="Projecct\USER\inc\control.h" />
+    <ClInclude Include="Projecct\USER\inc\electro_magnetic.h" />
+    <ClInclude Include="Projecct\USER\inc\hardware_abstract_layer.h" />
+    <ClInclude Include="Projecct\USER\inc\hardware_driver_layer.h" />
+    <ClInclude Include="Projecct\USER\inc\img_process.h" />
+    <ClInclude Include="Projecct\USER\inc\isr.h" />
+    <ClInclude Include="Projecct\USER\inc\mpu6050.h" />
+    <ClInclude Include="Projecct\USER\inc\pid.h" />
+    <ClCompile Include="Projecct\USER\src\control.c" />
+    <ClCompile Include="Projecct\USER\src\electro_magnetic.c" />
+    <ClCompile Include="Projecct\USER\src\hardware_abstract_layer.c" />
+    <ClCompile Include="Projecct\USER\src\hardware_driver_layer.c" />
+    <ClCompile Include="Projecct\USER\src\img_process.c" />
+    <ClCompile Include="Projecct\USER\src\isr.c" />
+    <ClCompile Include="Projecct\USER\src\main.c" />
+    <ClCompile Include="Projecct\USER\src\mpu6050.c" />
+    <ClCompile Include="Projecct\USER\src\pid.c" />
+  </ItemGroup>
+  </Project>

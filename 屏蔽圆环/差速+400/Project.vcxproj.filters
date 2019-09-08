@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Libraries" />
+    <Filter Include="Libraries\drives" />
+    <Filter Include="Libraries\drives\inc" />
+    <Filter Include="Libraries\drives\src" />
+    <Filter Include="Libraries\FatFs" />
+    <Filter Include="Libraries\FatFs\option" />
+    <Filter Include="Libraries\seekfree" />
+    <Filter Include="Libraries\startup" />
+    <Filter Include="Libraries\startup\CoreSupport" />
+    <Filter Include="Libraries\startup\DeviceSupport" />
+    <Filter Include="Libraries\startup\DeviceSupport\IAR-ARM" />
+    <Filter Include="Libraries\startup\DeviceSupport\MDK-ARM" />
+    <Filter Include="Projecct" />
+    <Filter Include="Projecct\JLINK" />
+    <Filter Include="Projecct\USER" />
+    <Filter Include="Projecct\USER\inc" />
+    <Filter Include="Projecct\USER\src" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Libraries\drives\inc\common.h">
+    <Filter>Libraries\drives\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\drives\inc\headfile.h">
+    <Filter>Libraries\drives\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\drives\inc\misc.h">
+    <Filter>Libraries\drives\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\drives\inc\MK60_adc.h">
+    <Filter>Libraries\drives\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\drives\inc\MK60_cmt.h">
+    <Filter>Libraries\drives\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\drives\inc\MK60_dac.h">
+    <Filter>Libraries\drives\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\drives\inc\MK60_dma.h">
+    <Filter>Libraries\drives\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\drives\inc\MK60_flash.h">
+    <Filter>Libraries\drives\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\drives\inc\MK60_ftm.h">
+    <Filter>Libraries\drives\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\drives\inc\MK60_gpio.h">
+    <Filter>Libraries\drives\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\drives\inc\MK60_i2c.h">
+    <Filter>Libraries\drives\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\drives\inc\MK60_lptmr.h">
+    <Filter>Libraries\drives\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\drives\inc\MK60_pit.h">
+    <Filter>Libraries\drives\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\drives\inc\MK60_port.h">
+    <Filter>Libraries\drives\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\drives\inc\MK60_port_cfg.h">
+    <Filter>Libraries\drives\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\drives\inc\MK60_rtc.h">
+    <Filter>Libraries\drives\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\drives\inc\MK60_sdhc.h">
+    <Filter>Libraries\drives\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\drives\inc\MK60_spi.h">
+    <Filter>Libraries\drives\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\drives\inc\MK60_systick.h">
+    <Filter>Libraries\drives\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\drives\inc\MK60_uart.h">
+    <Filter>Libraries\drives\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\drives\inc\MK60_wdog.h">
+    <Filter>Libraries\drives\inc</Filter>
+    </ClInclude>
+    <ClCompile Include="Libraries\drives\src\common.c">
+    <Filter>Libraries\drives\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\drives\src\misc.c">
+    <Filter>Libraries\drives\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\drives\src\MK60_adc.c">
+    <Filter>Libraries\drives\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\drives\src\MK60_cmt.c">
+    <Filter>Libraries\drives\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\drives\src\MK60_dac.c">
+    <Filter>Libraries\drives\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\drives\src\MK60_dma.c">
+    <Filter>Libraries\drives\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\drives\src\MK60_flash.c">
+    <Filter>Libraries\drives\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\drives\src\MK60_ftm.c">
+    <Filter>Libraries\drives\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\drives\src\MK60_gpio.c">
+    <Filter>Libraries\drives\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\drives\src\MK60_i2c.c">
+    <Filter>Libraries\drives\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\drives\src\MK60_lptmr.c">
+    <Filter>Libraries\drives\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\drives\src\MK60_pit.c">
+    <Filter>Libraries\drives\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\drives\src\MK60_port.c">
+    <Filter>Libraries\drives\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\drives\src\MK60_rtc.c">
+    <Filter>Libraries\drives\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\drives\src\MK60_sdhc.c">
+    <Filter>Libraries\drives\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\drives\src\MK60_spi.c">
+    <Filter>Libraries\drives\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\drives\src\MK60_systick.c">
+    <Filter>Libraries\drives\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\drives\src\MK60_uart.c">
+    <Filter>Libraries\drives\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\drives\src\MK60_wdog.c">
+    <Filter>Libraries\drives\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\FatFs\diskio.c">
+    <Filter>Libraries\FatFs</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\FatFs\ff.c">
+    <Filter>Libraries\FatFs</Filter>
+    </ClCompile>
+    <ClInclude Include="Libraries\FatFs\diskio.h">
+    <Filter>Libraries\FatFs</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FatFs\ff.h">
+    <Filter>Libraries\FatFs</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FatFs\ffconf.h">
+    <Filter>Libraries\FatFs</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FatFs\integer.h">
+    <Filter>Libraries\FatFs</Filter>
+    </ClInclude>
+    <ClCompile Include="Libraries\FatFs\option\cc932.c">
+    <Filter>Libraries\FatFs\option</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\FatFs\option\cc936.c">
+    <Filter>Libraries\FatFs\option</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\FatFs\option\cc949.c">
+    <Filter>Libraries\FatFs\option</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\FatFs\option\cc950.c">
+    <Filter>Libraries\FatFs\option</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\FatFs\option\ccsbcs.c">
+    <Filter>Libraries\FatFs\option</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\FatFs\option\syscall.c">
+    <Filter>Libraries\FatFs\option</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\FatFs\option\unicode.c">
+    <Filter>Libraries\FatFs\option</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\seekfree\SEEKFREE_7725.c">
+    <Filter>Libraries\seekfree</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\seekfree\SEEKFREE_FUN.c">
+    <Filter>Libraries\seekfree</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\seekfree\SEEKFREE_IIC.c">
+    <Filter>Libraries\seekfree</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\seekfree\SEEKFREE_MT9V032.c">
+    <Filter>Libraries\seekfree</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\seekfree\SEEKFREE_NRF24L01.c">
+    <Filter>Libraries\seekfree</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\seekfree\SEEKFREE_OLED.c">
+    <Filter>Libraries\seekfree</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\seekfree\SEEKFREE_TSL1401.c">
+    <Filter>Libraries\seekfree</Filter>
+    </ClCompile>
+    <ClInclude Include="Libraries\seekfree\SEEKFREE_7725.h">
+    <Filter>Libraries\seekfree</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\seekfree\SEEKFREE_FUN.h">
+    <Filter>Libraries\seekfree</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\seekfree\SEEKFREE_IIC.h">
+    <Filter>Libraries\seekfree</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\seekfree\SEEKFREE_MT9V032.h">
+    <Filter>Libraries\seekfree</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\seekfree\SEEKFREE_NRF24L01.h">
+    <Filter>Libraries\seekfree</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\seekfree\SEEKFREE_OLED.h">
+    <Filter>Libraries\seekfree</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\seekfree\SEEKFREE_TSL1401.h">
+    <Filter>Libraries\seekfree</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\startup\CoreSupport\core_cm0plus.h">
+    <Filter>Libraries\startup\CoreSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\startup\CoreSupport\core_cm4.h">
+    <Filter>Libraries\startup\CoreSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\startup\CoreSupport\core_cm4_simd.h">
+    <Filter>Libraries\startup\CoreSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\startup\CoreSupport\core_cmFunc.h">
+    <Filter>Libraries\startup\CoreSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\startup\CoreSupport\core_cmInstr.h">
+    <Filter>Libraries\startup\CoreSupport</Filter>
+    </ClInclude>
+    <ClCompile Include="Libraries\startup\DeviceSupport\system_MK66.c">
+    <Filter>Libraries\startup\DeviceSupport</Filter>
+    </ClCompile>
+    <ClInclude Include="Libraries\startup\DeviceSupport\MK66F18.h">
+    <Filter>Libraries\startup\DeviceSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\startup\DeviceSupport\system_MK66.h">
+    <Filter>Libraries\startup\DeviceSupport</Filter>
+    </ClInclude>
+    <ClCompile Include="Libraries\startup\DeviceSupport\IAR-ARM\startup_MK66F18.s">
+    <Filter>Libraries\startup\DeviceSupport\IAR-ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\startup\DeviceSupport\MDK-ARM\startup_MK66F18.s">
+    <Filter>Libraries\startup\DeviceSupport\MDK-ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="Projecct\JLINK\SEGGER_RTT.c">
+    <Filter>Projecct\JLINK</Filter>
+    </ClCompile>
+    <ClCompile Include="Projecct\JLINK\SEGGER_RTT_printf.c">
+    <Filter>Projecct\JLINK</Filter>
+    </ClCompile>
+    <ClInclude Include="Projecct\JLINK\SEGGER_RTT.h">
+    <Filter>Projecct\JLINK</Filter>
+    </ClInclude>
+    <ClInclude Include="Projecct\JLINK\SEGGER_RTT_Conf.h">
+    <Filter>Projecct\JLINK</Filter>
+    </ClInclude>
+    <ClInclude Include="Projecct\USER\inc\control.h">
+    <Filter>Projecct\USER\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Projecct\USER\inc\electro_magnetic.h">
+    <Filter>Projecct\USER\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Projecct\USER\inc\hardware_abstract_layer.h">
+    <Filter>Projecct\USER\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Projecct\USER\inc\hardware_driver_layer.h">
+    <Filter>Projecct\USER\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Projecct\USER\inc\img_process.h">
+    <Filter>Projecct\USER\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Projecct\USER\inc\isr.h">
+    <Filter>Projecct\USER\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Projecct\USER\inc\mpu6050.h">
+    <Filter>Projecct\USER\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Projecct\USER\inc\pid.h">
+    <Filter>Projecct\USER\inc</Filter>
+    </ClInclude>
+    <ClCompile Include="Projecct\USER\src\control.c">
+    <Filter>Projecct\USER\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Projecct\USER\src\electro_magnetic.c">
+    <Filter>Projecct\USER\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Projecct\USER\src\hardware_abstract_layer.c">
+    <Filter>Projecct\USER\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Projecct\USER\src\hardware_driver_layer.c">
+    <Filter>Projecct\USER\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Projecct\USER\src\img_process.c">
+    <Filter>Projecct\USER\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Projecct\USER\src\isr.c">
+    <Filter>Projecct\USER\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Projecct\USER\src\main.c">
+    <Filter>Projecct\USER\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Projecct\USER\src\mpu6050.c">
+    <Filter>Projecct\USER\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Projecct\USER\src\pid.c">
+    <Filter>Projecct\USER\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
